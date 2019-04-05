@@ -1,0 +1,1 @@
+pg_restore -d ipf gpi_prod_commune_v2019_20190328_1205.dmp > import_ipp.log 2>&1

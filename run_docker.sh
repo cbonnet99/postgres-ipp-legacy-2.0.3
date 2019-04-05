@@ -1,0 +1,1 @@
+docker run -e POSTGRES_USER="docker" -e POSTGRES_PASSWORD="'docker'" -p 5432:5432 --name postgres8 --volume /home/cyrille/Work/ipp_data/ipf_postgres_volume:/usr/local/pgsql/data -dit docker_postgres8311_postgis136 /bin/bash
